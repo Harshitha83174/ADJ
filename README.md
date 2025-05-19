@@ -35,3 +35,5 @@
 [PalindromeChecker o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20221832.png)
 
 [WhitespaceRemover o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20223236.png)
+
+[WordCapitalizer o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20224018.png)
