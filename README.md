@@ -17,3 +17,5 @@
 [LinkedListOfferLast o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20211822.png)
 
 [LinkedListElementPositions o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20212249.png)
+
+[LinkedListSwapElements o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20213113.png)
