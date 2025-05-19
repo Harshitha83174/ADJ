@@ -29,3 +29,5 @@
 [NullOrWhitespaceChecker o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20220205.png)
 
 [SubstringCounter o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20220708.png)
+
+[StringReverser o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20221346.png)
