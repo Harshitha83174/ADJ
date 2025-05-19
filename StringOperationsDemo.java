@@ -1,4 +1,4 @@
-package Lab2;
+package Lab3;
 public class StringOperationsDemo {
     public static void main(String[] args) {
         // 1. String Creation and Basic Operations
@@ -9,61 +9,65 @@ public class StringOperationsDemo {
 
         // 2. Length and Character Access
         System.out.println("Length of str1: " + str1.length());
-        System.out.println("Character at index 1 of str1: " + str1.charAt(1));
+        System.out.println("Character at index 1 in str1: " + str1.charAt(1));
 
         // 3. String Comparison
-        System.out.println("str1 equals 'hello'? " + str1.equals("hello"));           // case-sensitive
+        System.out.println("str1 equals str2? " + str1.equals(str2));
         System.out.println("str1 equalsIgnoreCase 'hello'? " + str1.equalsIgnoreCase("hello"));
 
         // 4. String Searching
-        String str3 = "Welcome to Java programming!";
-        System.out.println("Index of 'Java' in str3: " + str3.indexOf("Java"));
-        System.out.println("Contains 'programming'? " + str3.contains("programming"));
+        String str3 = "Java is a powerful programming language";
+        System.out.println("Does str3 contain 'powerful'? " + str3.contains("powerful"));
+        System.out.println("Index of 'programming' in str3: " + str3.indexOf("programming"));
 
         // 5. Substring Operations
-        System.out.println("Substring from index 11: " + str3.substring(11));
-        System.out.println("Substring from 11 to 15: " + str3.substring(11, 15));
+        System.out.println("Substring from index 8: " + str3.substring(8));
+        System.out.println("Substring from index 8 to 17: " + str3.substring(8, 17));
 
         // 6. String Modification
-        String replaced = str3.replace("Java", "Python");
-        System.out.println("After replacement: " + replaced);
+        String modified = str3.replace("Java", "Python");
+        System.out.println("Modified string: " + modified);
 
         // 7. Whitespace Handling
-        String str4 = "   Trim this string   ";
-        System.out.println("Original: '" + str4 + "'");
-        System.out.println("Trimmed: '" + str4.trim() + "'");
+        String strWithSpaces = "   Trim this string   ";
+        System.out.println("Original with spaces: '" + strWithSpaces + "'");
+        System.out.println("Trimmed: '" + strWithSpaces.trim() + "'");
 
         // 8. String Concatenation
-        String concat = str1 + " " + str2;
-        System.out.println("Concatenated string: " + concat);
+        String concatenated = str1 + " " + str2;
+        System.out.println("Concatenated string: " + concatenated);
 
         // 9. String Splitting
-        String fruits = "Apple,Banana,Orange";
-        String[] fruitArray = fruits.split(",");
-        System.out.println("Fruits:");
-        for (String fruit : fruitArray) {
+        String sentence = "Apple,Banana,Orange,Grapes";
+        String[] fruits = sentence.split(",");
+        System.out.println("Splitted fruits:");
+        for (String fruit : fruits) {
             System.out.println(fruit);
         }
 
         // 10. StringBuilder Demo
-        StringBuilder sb = new StringBuilder("Hello");
-        sb.append(" World");
-        sb.insert(5, ",");
-        sb.replace(6, 11, " Java");
+        StringBuilder sb = new StringBuilder("Java");
+        sb.append(" Programming");
+        sb.insert(4, " Language");
+        sb.replace(0, 4, "Python");
         System.out.println("StringBuilder result: " + sb.toString());
 
         // 11. String Formatting
-        int age = 25;
         String name = "Alice";
+        int age = 22;
         String formatted = String.format("Name: %s, Age: %d", name, age);
         System.out.println("Formatted string: " + formatted);
 
         // 12. Email Validation using contains(), startsWith(), endsWith()
-        String email = "student@example.com";
-        if (email.contains("@") && email.startsWith("student") && email.endsWith(".com")) {
-            System.out.println("Valid email format!");
+        String email = "student@aiet.edu";
+        boolean isValid = email.contains("@") && email.startsWith("student") && email.endsWith(".edu");
+
+        System.out.println("Email: " + email);
+        if (isValid) {
+            System.out.println("✅ Valid Email Format");
         } else {
-            System.out.println("Invalid email format!");
+            System.out.println("❌ Invalid Email Format");
         }
     }
 }
+
