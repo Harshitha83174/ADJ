@@ -7,3 +7,5 @@
 [ColorSorter o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20202823.png)
 
 [ColorSubList o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205012.png)
+
+[ColorRemoveByIndex o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205450.png)
