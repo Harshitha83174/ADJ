@@ -13,3 +13,5 @@
 [LinkedListIteratorFromSecond o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205849.png)
 
 [LinkedListReverseIteration o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20211422.png)
+
+[LinkedListOfferLast o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20211822.png)
