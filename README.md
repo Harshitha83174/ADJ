@@ -9,3 +9,5 @@
 [ColorSubList o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205012.png)
 
 [ColorRemoveByIndex o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205450.png)
+
+[LinkedListIteratorFromSecond o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20205849.png)
