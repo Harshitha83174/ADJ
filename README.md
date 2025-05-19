@@ -33,3 +33,5 @@
 [StringReverser o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20221346.png)
 
 [PalindromeChecker o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20221832.png)
+
+[WhitespaceRemover o/p_link]->(https://github.com/Harshitha83174/ADJ/blob/main/Screenshot%202025-05-19%20223236.png)
